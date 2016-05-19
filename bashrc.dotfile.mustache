@@ -1,0 +1,15 @@
+#this is a comment
+#command aliases
+alias ..='cd ..'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# utility functions
+
+#function that will both create and switch to the directory specified
+function take()
+{
+   mkdir $1
+   cd $1
+}
